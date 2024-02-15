@@ -4,8 +4,8 @@ Project based on kaggle competition [Home Credit - Credit Risk Model Stability](
 
 ## Setup
 
-Activate rye environment
+Activate rye environment to the virtual environment
 
 ```bash
-source "$HOME/.rye/env"
+source "$HOME/.rye/env" >> /path/to/project/.venv/bin/activate
 ```
