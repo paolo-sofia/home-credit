@@ -21,4 +21,9 @@ distribution = true
 [tool.pdm.dev-dependencies]
 dev = [
     "notebook>=7.1.0",
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
 ]
+
+[tool.dagster]
+module_name = "data_pipelines"
