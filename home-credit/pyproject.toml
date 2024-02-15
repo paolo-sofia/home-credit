@@ -1,0 +1,19 @@
+[project]
+name = "home-credit"
+version = "0.1.0"
+description = "Project based on kaggle competition Home Credit - Credit Risk Model Stability"
+authors = [
+    {name = "Paolo Sofia", email = "paolosofia6@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
